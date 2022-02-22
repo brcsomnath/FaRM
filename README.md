@@ -62,7 +62,7 @@ python src/constrained/constrained-single.py
         --epochs 25
 ```
 
-The dataset name can be selected from pnemonics below:
+The dataset name can be selected from below:
 ```
 dial: DIAL (y: Sentiment, g: Race)
 pan16: PAN16 (y: Mention, g: Gender)
