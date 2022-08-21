@@ -5,7 +5,7 @@ This repository contains the implementation of the TACL 2022 paper titled:
 > ["Learning Fair Representations via Rate Distortion Maximization"](https://arxiv.org/pdf/2202.00035.pdf),<br/>
 > [Somnath Basu Roy Chowdhury](https://www.cs.unc.edu/~somnath/) and [Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/).
 
-<img src="./assets/Idea.pdf" alt="intro image"/>
+<img src="assets/Idea.png" alt="intro image" width="4000"/>
 
 ## Rate-Distortion
 
