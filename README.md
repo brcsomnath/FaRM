@@ -92,7 +92,8 @@ python src/constrained/constrained-multiple.py \
   title         = {Learning Fair Representations via Rate-Distortion Maximization},
   author        = {Basu Roy Chowdhury, Somnath and Chaturvedi, Snigdha},
   year          = {2022},
-  journal       = {Transactions of ACL},
+  journal = {Transactions of the Association for Computational Linguistics},
+  url = {https://arxiv.org/pdf/2202.00035.pdf},
   eprint        = {2202.00035}
 }
 ```
