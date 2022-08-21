@@ -1,6 +1,7 @@
 import numpy as np
 import torch
 
+# parts of the code have been adapted from https://github.com/ryanchankh/mcr2/blob/master/loss.py
 
 def one_hot(labels_int, n_classes):
     """Turn labels into one hot vector of K classes."""
