@@ -5,6 +5,8 @@ This repository contains the implementation of the TACL 2022 paper titled:
 > ["Learning Fair Representations via Rate Distortion Maximization"](https://arxiv.org/pdf/2202.00035.pdf),<br/>
 > [Somnath Basu Roy Chowdhury](https://www.cs.unc.edu/~somnath/) and [Snigdha Chaturvedi](https://sites.google.com/site/snigdhac/).
 
+<img src="./assets/Idea.pdf" alt="intro image"/>
+
 ## Rate-Distortion
 
 The implementation of the rate-distortion loss function in unconstrained and constrained setup is present in `src/utils/loss.py`. We present 3 variations of the loss: `RateDistortionUnconstrained`, `RateDistortionConstrained` and `RateDistortionConstrainedMultiple`. Each of the above modules can be treated as a loss criterion function. The function takes as the features $X \in \mathbb{R}^{n \times d}$ and protected attribute labels $g \in \mathbb{R}^{n}$.
