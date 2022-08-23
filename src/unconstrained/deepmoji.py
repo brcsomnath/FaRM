@@ -48,7 +48,7 @@ def get_parser():
                         help="GPU device.")
     parser.add_argument(
         "--data_path",
-        default="../mcr2/nullspace_projection/data/",
+        default="data/",
         type=str,
         help="Dataset path.",
     )

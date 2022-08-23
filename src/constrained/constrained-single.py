@@ -138,10 +138,10 @@ def get_dataset(dataset):
     test: list of test instances
     """
 
-    path = "../../purging-embeddings/data"
+    path = "data"
 
     if dataset == "dial":
-        DIAL_PATH = f"{path}/twitter-race/sentiment-race/"
+        DIAL_PATH = f"{path}/dial/"
         Y_LABELS = {"Positive": 0, "Negative": 1}
         Z_LABELS = {"male": 0, "female": 1}
 
@@ -150,7 +150,7 @@ def get_dataset(dataset):
         test = load_content(load_dump(DIAL_PATH + "test.pkl"))
 
     elif dataset == "dial-mention":
-        DIAL_PATH = f"{path}/twitter-race/mention-race/"
+        DIAL_PATH = f"{path}/dial-mention/"
         Y_LABELS = {"Positive": 0, "Negative": 1}
         Z_LABELS = {"male": 0, "female": 1}
 
@@ -168,7 +168,7 @@ def get_dataset(dataset):
         test = load_content(load_dump(PAN16_PATH + "test.pkl"))
 
     elif dataset == "pan16-age":
-        PAN16_PATH = f"{path}/pan16/age/"
+        PAN16_PATH = f"{path}/pan16-age/"
         Y_LABELS = {"Positive": 0, "Negative": 1}
         Z_LABELS = {"male": 0, "female": 1}
 
@@ -177,7 +177,7 @@ def get_dataset(dataset):
         test = load_content(load_dump(PAN16_PATH + "test.pkl"))
 
     elif dataset == "bios":
-        BIOS_PATH = "../../purging-embeddings/data/bios/"
+        BIOS_PATH = f"{path}/bios/"
         Y_LABELS = {}
         for i in range(28):
             Y_LABELS[i] = i

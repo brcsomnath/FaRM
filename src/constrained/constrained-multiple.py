@@ -155,8 +155,9 @@ def get_dataset(dataset):
     test: list of test instances
     """
 
+    path = "../../data"
     if dataset == "pan16-dual":
-        PAN16_PATH = "../../purging-embeddings/data/pan16/dual/"
+        PAN16_PATH = f"{path}/pan16-dual/"
 
         Y_LABELS = {"Positive": 0, "Negative": 1}
         Z1_LABELS = {"male": 0, "female": 1}

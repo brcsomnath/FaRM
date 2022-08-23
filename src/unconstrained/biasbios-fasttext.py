@@ -61,13 +61,13 @@ def get_parser():
 
     parser.add_argument("--dataset", default="bios-fasttext", type=str)
     parser.add_argument("--data_path",
-                        default="../../../mcr2/nullspace_projection/data",
+                        default="data",
                         type=str)
     parser.add_argument("--encoded_path",
-                        default="../../../mcr2/data/embeddings",
+                        default="data/embeddings",
                         type=str)
     parser.add_argument("--model_save_path",
-                        default="../../saved_models/unconstrained/",
+                        default="saved_models/unconstrained/",
                         type=str)
     parser.add_argument("--batch_size",
                         default=1024,

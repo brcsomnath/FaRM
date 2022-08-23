@@ -41,16 +41,16 @@ def get_parser():
     parser.add_argument("--dataset", default="bios-bert", type=str)
     parser.add_argument(
         "--data_path",
-        default="../../../mcr2/nullspace_projection/data/biasbios",
+        default="data/biasbios",
         type=str,
     )
     parser.add_argument(
         "--encoded_data_path",
-        default="../../../mcr2/nullspace_projection/data/bert_encode_biasbios",
+        default="data/bert_encode_biasbios",
         type=str,
     )
     parser.add_argument("--model_save_path",
-                        default="../../saved_models/unconstrained/",
+                        default="saved_models/unconstrained/",
                         type=str)
     parser.add_argument("--batch_size",
                         default=1024,

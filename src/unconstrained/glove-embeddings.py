@@ -49,7 +49,7 @@ def get_parser():
                         type=str,
                         help="GPU device.")
     parser.add_argument("--data_path",
-                        default="../data/embeddings",
+                        default="data/embeddings",
                         type=str,
                         help="Dataset path.")
     parser.add_argument("--model_save_path",

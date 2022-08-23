@@ -21,7 +21,9 @@ We present the experiments using FaRM in the following setups:
 3. Constrained debiasing - PAN16 (multiple protected variable)
 
 ### Data
-The data for the experiments can be found in the following resources: [https://github.com/shauli-ravfogel/nullspace_projection](https://github.com/shauli-ravfogel/nullspace_projection) and [https://github.com/brcsomnath/adversarial-scrubber](https://github.com/brcsomnath/adversarial-scrubber)
+The data for the experiments can be found in the following resources: [https://github.com/shauli-ravfogel/nullspace_projection](https://github.com/shauli-ravfogel/nullspace_projection) and [https://github.com/brcsomnath/adversarial-scrubber](https://github.com/brcsomnath/adversarial-scrubber).
+
+Data used in our experiments can also be found [here](https://drive.google.com/file/d/1ZLcZc0e8gmYominP1W1q2Z8lOIpIRnQ3/view?usp=sharing).
 
 
 ### Unconstrained Debiasing
