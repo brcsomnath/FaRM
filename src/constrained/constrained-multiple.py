@@ -206,6 +206,8 @@ if __name__ == "__main__":
 
     optimizer = optim.AdamW([{
         "params": bert_model.parameters()
+    }, {
+        "params": net.parameters()
     }],
                             lr=2e-5,
                             betas=(0.5, 0.999))

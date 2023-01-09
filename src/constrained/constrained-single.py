@@ -254,6 +254,8 @@ if __name__ == "__main__":
 
     optimizer = optim.AdamW([{
         "params": bert_model.parameters()
+    }, {
+        "params": net.parameters()
     }],
                             lr=2e-5,
                             betas=(0.5, 0.999))
@@ -359,5 +361,6 @@ if __name__ == "__main__":
     mdl = MDL(train_dataset)
 
     print(f"Bias MDL: {mdl.get_score(args, num_labels=2, label_id=2)}")
-    print(f"Task MDL: {mdl.get_score(args, num_labels=3, label_id=1)}"
-          )  # TODO: this won't work for BIOS dataset
+    print(
+        f"Task MDL: {mdl.get_score(args, num_labels=3, label_id=1)}"
+    )  # TODO: this won't work for BIOS dataset (for task MDL set num_labels=28)
